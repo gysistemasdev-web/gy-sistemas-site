@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>GY Sistemas — Sites e Sistemas Profissionais</title>
+  <meta name="description" content="A GY Sistemas desenvolve sites profissionais e sistemas sob medida para empresas que querem crescer no digital. Orçamento rápido via WhatsApp." />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="GY Sistemas — Sites e Sistemas Profissionais" />
+  <meta property="og:description" content="Sites modernos, sistemas sob medida e soluções digitais para empresas." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/og.jpg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="css/custom.css" />
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"GY Sistemas",
+    "url":"https://SEU-DOMINIO-AQUI.com.br",
+    "sameAs":[
+      "https://instagram.com/gy_sistemas"
+    ],
+    "description":"Desenvolvimento de sistemas sob medida e criação de sites profissionais.",
+    "areaServed":"BR",
+    "contactPoint":[{
+      "@type":"ContactPoint",
+      "contactType":"sales",
+      "telephone":"+55-11-96796-2721",
+      "availableLanguage":["pt-BR"]
+    }]
+  }
+  </script>
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+
+      <!-- Brand (corrigido: logo + badge do jeito certo) -->
+      <a href="index.html" class="flex items-center gap-3">
+        <span class="inline-flex items-center justify-center h-11 w-11 rounded-xl bg-gradient-to-br from-[#6d28d9] to-[#9333ea] shadow-[0_10px_25px_rgba(124,58,237,0.25)]">
+          <img src="assets/img/logo-icon.png" alt="GY Sistemas" class="h-7 w-auto" />
+        </span>
+        <span class="font-semibold tracking-wide text-gray-900">GY Sistemas</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a class="text-gray-700 hover:text-purple-600 transition" href="index.html">Início</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="servicos.html">Serviços</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="projetos.html">Projetos</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="sobre.html">Sobre</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="contato.html">Contato</a>
+
+        <a class="inline-flex items-center justify-center px-5 py-2 rounded-full bg-white text-purple-700 font-semibold hover:bg-white/90 transition"
+           href="contato.html">
+          Solicitar Orçamento
+        </a>
+      </nav>
+
+      <!-- Mobile button -->
+      <button data-menu-btn class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg border border-gray-200" aria-label="Abrir menu">
+        <i class="ri-menu-line text-xl"></i>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div data-menu-panel class="hidden md:hidden border-t border-gray-100 bg-white">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-3 text-sm">
+        <a class="text-gray-700 hover:text-purple-600" href="index.html">Início</a>
+        <a class="text-gray-700 hover:text-purple-600" href="servicos.html">Serviços</a>
+        <a class="text-gray-700 hover:text-purple-600" href="projetos.html">Projetos</a>
+        <a class="text-gray-700 hover:text-purple-600" href="sobre.html">Sobre</a>
+        <a class="text-gray-700 hover:text-purple-600" href="contato.html">Contato</a>
+        <a class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-purple-600 text-white hover:bg-purple-700 transition"
+           href="contato.html">
+          Solicitar Orçamento
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-[#4c1d95] via-[#7c3aed] to-[#9333ea]"></div>
+
+    <!-- glow superior esquerdo -->
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,255,255,0.18),_transparent_55%)]"></div>
+    <!-- glow inferior direito -->
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,_rgba(0,0,0,0.18),_transparent_60%)]"></div>
+
+    <div class="relative max-w-6xl mx-auto px-4 py-14 md:py-20 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+
+        <!-- Marca visível no HERO (sem aumentar o header) -->
+        <div class="inline-flex items-center gap-3 mb-6">
+          <span class="inline-flex items-center justify-center h-14 w-14 rounded-2xl bg-white/12 border border-white/20 shadow-[0_20px_45px_rgba(0,0,0,0.25)]">
+            <img src="assets/img/logo-icon.png" alt="Logo GY Sistemas" class="h-8 w-auto" />
+          </span>
+          <div>
+            <div class="text-white font-extrabold tracking-wide text-xl leading-none">GY Sistemas</div>
+            <div class="text-white/75 text-sm">Sites • Sistemas • Gestão Digital</div>
+          </div>
+        </div>
+
+        <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
+          <span class="text-purple-200">GY Sistemas:</span><br/>
+          Sistemas e Sites Profissionais para Empresas que<br/>
+          <span class="text-purple-200">Querem Crescer no Digital</span>
+        </h1>
+
+        <p class="mt-5 text-purple-100 leading-relaxed">
+          Desenvolvemos sistemas sob medida e sites estratégicos com foco em conversão, organização e crescimento digital.
+        </p>
+
+        <div class="mt-8 flex flex-col sm:flex-row gap-3">
+          <a href="contato.html"
+             class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-white text-purple-700 font-semibold hover:bg-purple-50 transition shadow-[0_14px_30px_rgba(0,0,0,0.18)]">
+            Solicitar Orçamento
+          </a>
+          <a href="projetos.html"
+             class="inline-flex items-center justify-center px-6 py-3 rounded-full border border-white/30 text-white hover:bg-white/10 transition-all duration-300">
+            Ver Nossos Projetos
+          </a>
+        </div>
+
+        <div class="mt-8 flex flex-wrap items-center gap-4 text-purple-100 text-sm">
+          <div class="flex items-center gap-2">
+            <i class="ri-shield-check-line"></i>
+            <span>Entrega profissional</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="ri-flashlight-line"></i>
+            <span>Atendimento rápido</span>
+          </div>
+
+          <!-- Instagram + WhatsApp no HERO (micro-conversão) -->
+          <a href="https://instagram.com/gy_sistemas" target="_blank" rel="noopener"
+             class="flex items-center gap-2 hover:text-white transition">
+            <i class="ri-instagram-line"></i>
+            <span>@gy_sistemas</span>
+          </a>
+          <a href="https://wa.me/5511967962721?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20GY%20Sistemas%20e%20quero%20um%20or%C3%A7amento."
+             target="_blank" rel="noopener"
+             class="flex items-center gap-2 hover:text-white transition">
+            <i class="ri-whatsapp-line"></i>
+            <span>(11) 96796-2721</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero image/card -->
+      <div class="relative">
+        <div class="rounded-2xl overflow-hidden border border-white/20
+                    shadow-[0_30px_80px_rgba(0,0,0,0.35)]
+                    backdrop-blur-sm bg-white/5">
+          <img class="w-full h-[260px] md:h-[320px] object-cover"
+               src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=60"
+               alt="Equipe trabalhando em desenvolvimento" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+      <div class="text-center">
+        <h2 class="text-3xl font-extrabold text-gray-900">Nossos Serviços</h2>
+        <p class="mt-2 text-gray-600">Soluções completas em tecnologia para modernizar seu negócio.</p>
+      </div>
+
+      <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+            <i class="ri-code-s-slash-line text-purple-600 text-xl"></i>
+          </div>
+          <h3 class="mt-4 font-bold text-gray-900">Desenvolvimento de Sistemas</h3>
+          <p class="mt-2 text-gray-600 text-sm">Sistemas personalizados para automatizar processos, organizar operações e aumentar a eficiência da sua empresa.</p>
+          <ul class="mt-4 text-sm text-gray-700 space-y-2">
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Sistemas PDV</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Gestão de estoque</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Financeiro</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Relatórios</li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+            <i class="ri-global-line text-purple-600 text-xl"></i>
+          </div>
+          <h3 class="mt-4 font-bold text-gray-900">Criação de Sites</h3>
+          <p class="mt-2 text-gray-600 text-sm">Sites estratégicos focados em conversão, autoridade digital e geração de clientes.</p>
+          <ul class="mt-4 text-sm text-gray-700 space-y-2">
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Responsivo</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> SEO básico</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> WhatsApp</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Alta performance</li>
+          </ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+            <i class="ri-instagram-line text-purple-600 text-xl"></i>
+          </div>
+          <h3 class="mt-4 font-bold text-gray-900">Gestão Digital</h3>
+          <p class="mt-2 text-gray-600 text-sm">Estruturação e posicionamento digital para empresas que querem crescer com organização e presença forte online.</p>
+          <ul class="mt-4 text-sm text-gray-700 space-y-2">
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Bio e destaques</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Conteúdo</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Análise</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Padrão visual</li>
+          </ul>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+            <i class="ri-lightbulb-flash-line text-purple-600 text-xl"></i>
+          </div>
+          <h3 class="mt-4 font-bold text-gray-900">Consultoria Digital</h3>
+          <p class="mt-2 text-gray-600 text-sm">Diagnóstico completo do seu negócio digital com plano estratégico para crescimento e escala.</p>
+          <ul class="mt-4 text-sm text-gray-700 space-y-2">
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Diagnóstico</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Plano de ação</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Ajustes</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Crescimento</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="text-gray-600 mt-8">
+        Atendemos empresas de diversos segmentos com soluções personalizadas e foco em resultado.
+      </p>
+
+      <div class="mt-10 text-center">
+        <a href="servicos.html" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-purple-600 text-white hover:bg-purple-700 transition">
+          Ver serviços em detalhes
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT (resumo) -->
+  <section>
+    <div class="max-w-6xl mx-auto px-4 py-16 grid lg:grid-cols-2 gap-10 items-center">
+      <div class="rounded-2xl overflow-hidden shadow-md border border-gray-100">
+        <img class="w-full h-[320px] object-cover"
+             src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=60"
+             alt="Reunião de equipe" />
+      </div>
+
+      <div>
+        <h2 class="text-3xl font-extrabold text-gray-900">Sobre a GY Sistemas</h2>
+        <p class="mt-4 text-gray-600 leading-relaxed">
+          Somos uma empresa focada em soluções personalizadas: sites modernos, sistemas sob medida e melhorias digitais que ajudam empresas a crescer com eficiência e presença online.
+        </p>
+
+        <!-- Ajuste importante: se esses números NÃO forem reais, troque por textos (pra não perder confiança).
+             Mantive como estava para não quebrar seu conteúdo. -->
+        <div class="mt-8 grid grid-cols-2 gap-6">
+          <div>
+            <div class="text-3xl font-extrabold text-purple-600">100+</div>
+            <div class="text-sm text-gray-600">Projetos entregues</div>
+          </div>
+          <div>
+            <div class="text-3xl font-extrabold text-purple-600">5+</div>
+            <div class="text-sm text-gray-600">Anos de experiência</div>
+          </div>
+          <div>
+            <div class="text-3xl font-extrabold text-purple-600">24h</div>
+            <div class="text-sm text-gray-600">Suporte técnico</div>
+          </div>
+          <div>
+            <div class="text-3xl font-extrabold text-purple-600">100%</div>
+            <div class="text-sm text-gray-600">Foco em qualidade</div>
+          </div>
+        </div>
+
+        <div class="mt-8">
+          <a href="sobre.html" class="inline-flex items-center gap-2 text-purple-700 font-semibold hover:text-purple-800">
+            Conhecer mais <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="bg-purple-50">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+      <div class="text-center">
+        <h2 class="text-3xl font-extrabold text-gray-900">O Que Nossos Clientes Dizem</h2>
+        <p class="mt-2 text-gray-600">Confiança e qualidade comprovada pela GY Sistemas</p>
+      </div>
+
+      <div class="mt-10 grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="text-yellow-400">
+            <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+          </div>
+          <p class="mt-3 text-gray-600 text-sm italic">
+            “A GY Sistemas transformou completamente nossa presença digital. Atendimento rápido e resultado excelente.”
+          </p>
+          <div class="mt-4">
+            <div class="font-bold text-gray-900">Cliente Real</div>
+            <div class="text-sm text-purple-600">Nome da empresa</div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="text-yellow-400">
+            <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+          </div>
+          <p class="mt-3 text-gray-600 text-sm italic">
+            “Site ficou lindo e funcional. O processo foi organizado do início ao fim.”
+          </p>
+          <div class="mt-4">
+            <div class="font-bold text-gray-900">Cliente Real</div>
+            <div class="text-sm text-purple-600">Nome da empresa</div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="text-yellow-400">
+            <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+          </div>
+          <p class="mt-3 text-gray-600 text-sm italic">
+            “Sistema sob medida resolveu nosso controle e trouxe mais eficiência no dia a dia.”
+          </p>
+          <div class="mt-4">
+            <div class="font-bold text-gray-900">Cliente Real</div>
+            <div class="text-sm text-purple-600">Nome da empresa</div>
+          </div>
+        </div>
+      </div>
+
+      <p class="mt-8 text-center text-xs text-gray-500">
+        * Substitua por depoimentos reais assim que possível (isso aumenta conversão e confiança).
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <div class="max-w-4xl mx-auto px-4 py-16">
+      <div class="text-center">
+        <h2 class="text-3xl font-extrabold text-gray-900">Perguntas Frequentes</h2>
+        <p class="mt-2 text-gray-600">Tire suas dúvidas sobre os serviços da GY Sistemas</p>
+      </div>
+
+      <div class="mt-10 divide-y divide-gray-200 border border-gray-100 rounded-2xl overflow-hidden bg-white">
+        <div data-faq-item class="p-5">
+          <button data-faq-btn class="w-full flex items-center justify-between text-left">
+            <span class="font-semibold text-gray-900">Quanto tempo leva para desenvolver um site?</span>
+            <i data-faq-icon class="ri-arrow-down-s-line text-xl transition-transform"></i>
+          </button>
+          <div data-faq-content class="hidden mt-3 text-gray-600 text-sm">
+            Depende do escopo. Sites institucionais podem levar de 3 a 10 dias úteis, e projetos maiores seguem cronograma.
+          </div>
+        </div>
+
+        <div data-faq-item class="p-5">
+          <button data-faq-btn class="w-full flex items-center justify-between text-left">
+            <span class="font-semibold text-gray-900">Você oferece suporte após a entrega?</span>
+            <i data-faq-icon class="ri-arrow-down-s-line text-xl transition-transform"></i>
+          </button>
+          <div data-faq-content class="hidden mt-3 text-gray-600 text-sm">
+            Sim. Podemos oferecer suporte pontual ou planos mensais de manutenção e melhorias contínuas.
+          </div>
+        </div>
+
+        <div data-faq-item class="p-5">
+          <button data-faq-btn class="w-full flex items-center justify-between text-left">
+            <span class="font-semibold text-gray-900">Os sistemas são personalizáveis?</span>
+            <i data-faq-icon class="ri-arrow-down-s-line text-xl transition-transform"></i>
+          </button>
+          <div data-faq-content class="hidden mt-3 text-gray-600 text-sm">
+            Sim. Desenvolvemos sob medida conforme a necessidade do seu negócio, com foco em resultado e eficiência.
+          </div>
+        </div>
+
+        <div data-faq-item class="p-5">
+          <button data-faq-btn class="w-full flex items-center justify-between text-left">
+            <span class="font-semibold text-gray-900">Atendem empresas de qualquer lugar?</span>
+            <i data-faq-icon class="ri-arrow-down-s-line text-xl transition-transform"></i>
+          </button>
+          <div data-faq-content class="hidden mt-3 text-gray-600 text-sm">
+            Sim. Atendemos online, com processos organizados para empresas em todo o Brasil.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-gradient-to-br from-purple-900 via-purple-800 to-purple-600 text-white">
+    <div class="max-w-6xl mx-auto px-4 py-14 text-center">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Pronto Para Transformar Seu Negócio com a GY Sistemas?</h2>
+      <p class="mt-3 text-purple-100 max-w-2xl mx-auto">
+        Fale com a gente e descubra como podemos ajudar sua empresa a crescer com tecnologia e presença digital.
+      </p>
+
+      <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="contato.html"
+           class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-white text-purple-700 font-semibold hover:bg-purple-50 transition">
+          Solicitar Orçamento
+        </a>
+        <a href="https://wa.me/5511967962721?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20GY%20Sistemas%20e%20quero%20um%20or%C3%A7amento."
+           target="_blank" rel="noopener"
+           class="inline-flex items-center justify-center px-6 py-3 rounded-full border border-white/40 hover:bg-white/10 transition">
+          WhatsApp: (11) 96796-2721
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT (resumo) -->
+  <section class="bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+      <div class="text-center">
+        <h2 class="text-3xl font-extrabold text-gray-900">Entre em contato com a GY Sistemas</h2>
+        <p class="mt-2 text-gray-600">Estamos prontos para atender você com excelência</p>
+      </div>
+
+      <div class="mt-10 grid lg:grid-cols-2 gap-8">
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <h3 class="font-bold text-gray-900">Fale com a GY Sistemas</h3>
+
+          <div class="mt-5 space-y-4 text-sm">
+            <div class="flex gap-3">
+              <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center">
+                <i class="ri-phone-line text-purple-600"></i>
+              </div>
+              <div>
+                <div class="font-semibold">Telefone</div>
+                <a class="text-gray-600 hover:text-purple-700" href="tel:+5511967962721">(11) 96796-2721</a>
+              </div>
+            </div>
+
+            <div class="flex gap-3">
+              <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center">
+                <i class="ri-mail-line text-purple-600"></i>
+              </div>
+              <div>
+                <div class="font-semibold">E-mail</div>
+                <a class="text-gray-600 hover:text-purple-700" href="mailto:contato@gysistemas.com.br">contato@gysistemas.com.br</a>
+              </div>
+            </div>
+
+            <div class="flex gap-3">
+              <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center">
+                <i class="ri-map-pin-line text-purple-600"></i>
+              </div>
+              <div>
+                <div class="font-semibold">Atendimento</div>
+                <div class="text-gray-600">Online • Brasil</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-6 flex items-center gap-3">
+            <a class="w-11 h-11 rounded-full bg-purple-600 text-white flex items-center justify-center hover:bg-purple-700 transition"
+               href="https://instagram.com/gy_sistemas" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="ri-instagram-line"></i>
+            </a>
+
+            <!-- Se você não tiver LinkedIn ainda, pode remover este botão -->
+            <a class="w-11 h-11 rounded-full bg-purple-600 text-white flex items-center justify-center hover:bg-purple-700 transition"
+               href="#" aria-label="LinkedIn">
+              <i class="ri-linkedin-fill"></i>
+            </a>
+
+            <a class="w-11 h-11 rounded-full bg-purple-600 text-white flex items-center justify-center hover:bg-purple-700 transition"
+               href="https://wa.me/5511967962721" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+          </div>
+
+          <div class="mt-8">
+            <a href="contato.html" class="inline-flex items-center gap-2 text-purple-700 font-semibold hover:text-purple-800">
+              Ir para página de contato <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <h3 class="font-bold text-gray-900">Solicite um orçamento</h3>
+
+          <form id="leadForm" class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="md:col-span-2">
+              <label class="text-sm font-semibold text-gray-700" for="nome">Nome *</label>
+              <input id="nome" required class="mt-1 w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-400"
+                     placeholder="Seu nome completo" />
+            </div>
+
+            <div>
+              <label class="text-sm font-semibold text-gray-700" for="telefone">Telefone *</label>
+              <input id="telefone" required class="mt-1 w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-400"
+                     placeholder="(11) 99999-9999" />
+            </div>
+
+            <div>
+              <label class="text-sm font-semibold text-gray-700" for="email">E-mail</label>
+              <input id="email" type="email" class="mt-1 w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-400"
+                     placeholder="seu@email.com" />
+            </div>
+
+            <div class="md:col-span-2">
+              <label class="text-sm font-semibold text-gray-700" for="interesse">De interesse</label>
+              <select id="interesse" class="mt-1 w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-400">
+                <option value="Criação de Sites">Criação de Sites</option>
+                <option value="Desenvolvimento de Sistemas">Desenvolvimento de Sistemas</option>
+                <option value="Gestão Digital">Gestão Digital</option>
+                <option value="Consultoria">Consultoria</option>
+              </select>
+            </div>
+
+            <div class="md:col-span-2">
+              <label class="text-sm font-semibold text-gray-700" for="mensagem">Mensagem *</label>
+              <textarea id="mensagem" required rows="4"
+                        class="mt-1 w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-400"
+                        placeholder="Conte um pouco do que você precisa..."></textarea>
+            </div>
+
+            <div class="md:col-span-2">
+              <button type="submit"
+                      class="w-full rounded-xl bg-purple-600 text-white font-semibold py-3 hover:bg-purple-700 transition">
+                Enviar no WhatsApp
+              </button>
+            </div>
+          </form>
+
+          <p class="mt-3 text-xs text-gray-500">
+            Ao enviar, você será direcionado ao WhatsApp com a mensagem pronta.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-300">
+    <div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8">
+      <div>
+        <div class="logo-font text-purple-300 text-2xl">GY Sistemas</div>
+        <p class="mt-3 text-sm text-gray-400">
+          Soluções digitais para empresas: sites, sistemas sob medida e estratégia para crescer.
+        </p>
+
+        <!-- Mini social no footer -->
+        <div class="mt-4 flex items-center gap-3">
+          <a class="w-10 h-10 rounded-full bg-white/10 text-white flex items-center justify-center hover:bg-white/15 transition"
+             href="https://instagram.com/gy_sistemas" target="_blank" rel="noopener" aria-label="Instagram">
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a class="w-10 h-10 rounded-full bg-white/10 text-white flex items-center justify-center hover:bg-white/15 transition"
+             href="https://wa.me/5511967962721" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <i class="ri-whatsapp-line"></i>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-white">Serviços</h4>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a class="hover:text-white" href="servicos.html">Desenvolvimento de Sistemas</a></li>
+          <li><a class="hover:text-white" href="servicos.html">Criação de Sites</a></li>
+          <li><a class="hover:text-white" href="servicos.html">Gestão Digital</a></li>
+          <li><a class="hover:text-white" href="servicos.html">Consultoria</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-white">Contato</h4>
+        <div class="mt-3 text-sm text-gray-400 space-y-2">
+          <div class="flex items-center gap-2"><i class="ri-phone-line"></i> (11) 96796-2721</div>
+          <div class="flex items-center gap-2"><i class="ri-instagram-line"></i> @gy_sistemas</div>
+          <div class="flex items-center gap-2"><i class="ri-mail-line"></i> contato@gysistemas.com.br</div>
+          <div class="flex items-center gap-2"><i class="ri-map-pin-line"></i> Atendimento online • Brasil</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10">
+      <div class="max-w-6xl mx-auto px-4 py-5 flex flex-col md:flex-row gap-2 items-center justify-between text-xs text-gray-400">
+        <span>© <span id="year"></span> GY Sistemas. Todos os direitos reservados.</span>
+        <span>Feito com foco em performance</span>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+
+  <!-- Botão flutuante WhatsApp (alto impacto de conversão) -->
+  <a href="https://wa.me/5511967962721?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20GY%20Sistemas%20e%20quero%20um%20or%C3%A7amento."
+     target="_blank" rel="noopener"
+     class="fixed bottom-5 right-5 z-50 inline-flex items-center gap-2 px-4 py-3 rounded-full bg-green-500 text-white font-semibold shadow-[0_18px_40px_rgba(0,0,0,0.25)] hover:opacity-95 transition">
+    <i class="ri-whatsapp-line text-xl"></i>
+    <span class="hidden sm:inline">WhatsApp</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

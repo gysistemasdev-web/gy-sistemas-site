@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Projetos | GY Sistemas</title>
+  <meta name="description" content="Veja projetos e cases da GY Sistemas: sites, sistemas e soluções digitais com foco em resultado e credibilidade." />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Projetos | GY Sistemas" />
+  <meta property="og:description" content="Sites, sistemas e soluções digitais com foco em resultado e credibilidade." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/og.jpg" />
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <!-- Header (padrão do index) -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <span class="inline-flex items-center justify-center h-11 w-11 rounded-xl bg-gradient-to-br from-[#6d28d9] to-[#9333ea] shadow-[0_10px_25px_rgba(124,58,237,0.25)]">
+          <img src="assets/img/logo-icon.png" alt="GY Sistemas" class="h-6 w-auto" />
+        </span>
+        <span class="font-semibold tracking-wide text-gray-900">GY Sistemas</span>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a class="text-gray-700 hover:text-purple-600 transition" href="index.html">Início</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="servicos.html">Serviços</a>
+        <a class="text-purple-700 font-semibold" href="projetos.html">Projetos</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="sobre.html">Sobre</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="contato.html">Contato</a>
+
+        <a class="inline-flex items-center justify-center px-5 py-2 rounded-full bg-white text-purple-700 font-semibold hover:bg-white/90 transition"
+           href="contato.html">
+          Solicitar Orçamento
+        </a>
+      </nav>
+
+      <button data-menu-btn class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg border border-gray-200">
+        <i class="ri-menu-line text-xl"></i>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div data-menu-panel class="hidden md:hidden border-t border-gray-100 bg-white">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-3 text-sm">
+        <a class="text-gray-700 hover:text-purple-600" href="index.html">Início</a>
+        <a class="text-gray-700 hover:text-purple-600" href="servicos.html">Serviços</a>
+        <a class="text-purple-700 font-semibold" href="projetos.html">Projetos</a>
+        <a class="text-gray-700 hover:text-purple-600" href="sobre.html">Sobre</a>
+        <a class="text-gray-700 hover:text-purple-600" href="contato.html">Contato</a>
+        <a class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-purple-600 text-white hover:bg-purple-700 transition"
+           href="contato.html">
+          Solicitar Orçamento
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-[#4c1d95] via-[#7c3aed] to-[#9333ea]"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,255,255,0.18),_transparent_55%)]"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,_rgba(0,0,0,0.18),_transparent_60%)]"></div>
+
+    <div class="relative max-w-6xl mx-auto px-4 py-14 md:py-20">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
+            Projetos com <span class="text-purple-200">cara de empresa</span><br/>
+            e foco em <span class="text-purple-200">resultado</span>.
+          </h1>
+          <p class="mt-5 text-purple-100 leading-relaxed max-w-xl">
+            Aqui você encontra exemplos e modelos de entrega da GY Sistemas: sites, sistemas e soluções digitais
+            pensadas para gerar credibilidade, organização e conversão.
+          </p>
+
+          <div class="mt-8 flex flex-col sm:flex-row gap-3">
+            <a href="contato.html"
+               class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-white text-purple-700 font-semibold hover:bg-purple-50 transition">
+              Pedir orçamento
+            </a>
+            <a href="#lista"
+               class="inline-flex items-center justify-center px-6 py-3 rounded-full border border-white/30 text-white hover:bg-white/10 transition-all duration-300">
+              Ver projetos
+            </a>
+          </div>
+
+          <div class="mt-8 flex flex-wrap items-center gap-4 text-purple-100 text-sm">
+            <div class="flex items-center gap-2">
+              <i class="ri-shield-check-line"></i>
+              <span>Entrega organizada</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="ri-line-chart-line"></i>
+              <span>Foco em conversão</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="ri-flashlight-line"></i>
+              <span>Atendimento rápido</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <div class="rounded-2xl overflow-hidden border border-white/20 shadow-[0_30px_80px_rgba(0,0,0,0.35)] backdrop-blur-sm bg-white/5">
+            <img class="w-full h-[260px] md:h-[320px] object-cover"
+                 src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=60"
+                 alt="Projeto e desenvolvimento" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILTRO + LISTA -->
+  <section id="lista" class="bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 py-14">
+
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+        <div>
+          <h2 class="text-3xl font-extrabold text-gray-900">Nossos Projetos</h2>
+          <p class="mt-2 text-gray-600">Filtre por categoria e veja modelos de entrega e casos.</p>
+        </div>
+
+        <!-- Filtro -->
+        <div class="flex flex-wrap gap-2">
+          <button data-filter="all" class="filter-btn px-4 py-2 rounded-full bg-purple-600 text-white text-sm font-semibold">
+            Todos
+          </button>
+          <button data-filter="site" class="filter-btn px-4 py-2 rounded-full bg-white border border-gray-200 text-gray-700 text-sm font-semibold hover:bg-gray-50">
+            Sites
+          </button>
+          <button data-filter="sistema" class="filter-btn px-4 py-2 rounded-full bg-white border border-gray-200 text-gray-700 text-sm font-semibold hover:bg-gray-50">
+            Sistemas
+          </button>
+          <button data-filter="gestao" class="filter-btn px-4 py-2 rounded-full bg-white border border-gray-200 text-gray-700 text-sm font-semibold hover:bg-gray-50">
+            Gestão Digital
+          </button>
+        </div>
+      </div>
+
+      <!-- Cards -->
+      <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- CARD -->
+        <article data-card="site" class="project-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="flex items-start justify-between gap-4">
+            <div class="inline-flex items-center gap-2">
+              <span class="px-3 py-1 rounded-full bg-purple-50 text-purple-700 text-xs font-semibold">Site</span>
+              <span class="px-3 py-1 rounded-full bg-gray-100 text-gray-700 text-xs font-semibold">Institucional</span>
+            </div>
+            <span class="text-xs text-gray-500 inline-flex items-center gap-1">
+              <i class="ri-time-line"></i> 7–10 dias
+            </span>
+          </div>
+
+          <h3 class="mt-4 font-extrabold text-gray-900 text-lg">Site Institucional Premium</h3>
+          <p class="mt-2 text-gray-600 text-sm">
+            Modelo ideal para empresas que querem autoridade e conversão com WhatsApp, seções estratégicas e layout moderno.
+          </p>
+
+          <ul class="mt-4 text-sm text-gray-700 space-y-2">
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> CTA + WhatsApp</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> SEO básico</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Design premium</li>
+          </ul>
+
+          <div class="mt-6 flex gap-3">
+            <a href="contato.html" class="flex-1 inline-flex items-center justify-center px-4 py-2 rounded-full bg-purple-600 text-white text-sm font-semibold hover:bg-purple-700 transition">
+              Solicitar
+            </a>
+            <a href="https://wa.me/5511967962721?text=Ol%C3%A1!%20Quero%20um%20site%20institucional%20premium." target="_blank"
+               class="inline-flex items-center justify-center w-11 h-10 rounded-full border border-gray-200 hover:bg-gray-50 transition"
+               aria-label="WhatsApp">
+              <i class="ri-whatsapp-line text-lg text-purple-700"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD -->
+        <article data-card="site" class="project-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="flex items-start justify-between gap-4">
+            <div class="inline-flex items-center gap-2">
+              <span class="px-3 py-1 rounded-full bg-purple-50 text-purple-700 text-xs font-semibold">Site</span>
+              <span class="px-3 py-1 rounded-full bg-gray-100 text-gray-700 text-xs font-semibold">Landing</span>
+            </div>
+            <span class="text-xs text-gray-500 inline-flex items-center gap-1">
+              <i class="ri-time-line"></i> 3–5 dias
+            </span>
+          </div>
+
+          <h3 class="mt-4 font-extrabold text-gray-900 text-lg">Landing Page de Conversão</h3>
+          <p class="mt-2 text-gray-600 text-sm">
+            Página única para vender um serviço/produto, captar leads e gerar mensagens no WhatsApp com alta performance.
+          </p>
+
+          <ul class="mt-4 text-sm text-gray-700 space-y-2">
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Copy estratégica</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Seção de prova social</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Formulário (WhatsApp)</li>
+          </ul>
+
+          <div class="mt-6 flex gap-3">
+            <a href="contato.html" class="flex-1 inline-flex items-center justify-center px-4 py-2 rounded-full bg-purple-600 text-white text-sm font-semibold hover:bg-purple-700 transition">
+              Solicitar
+            </a>
+            <a href="https://wa.me/5511967962721?text=Ol%C3%A1!%20Quero%20uma%20landing%20page%20de%20convers%C3%A3o." target="_blank"
+               class="inline-flex items-center justify-center w-11 h-10 rounded-full border border-gray-200 hover:bg-gray-50 transition"
+               aria-label="WhatsApp">
+              <i class="ri-whatsapp-line text-lg text-purple-700"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD -->
+        <article data-card="sistema" class="project-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="flex items-start justify-between gap-4">
+            <div class="inline-flex items-center gap-2">
+              <span class="px-3 py-1 rounded-full bg-purple-50 text-purple-700 text-xs font-semibold">Sistema</span>
+              <span class="px-3 py-1 rounded-full bg-gray-100 text-gray-700 text-xs font-semibold">Painel</span>
+            </div>
+            <span class="text-xs text-gray-500 inline-flex items-center gap-1">
+              <i class="ri-time-line"></i> 15–30 dias
+            </span>
+          </div>
+
+          <h3 class="mt-4 font-extrabold text-gray-900 text-lg">Sistema de Gestão / Painel</h3>
+          <p class="mt-2 text-gray-600 text-sm">
+            Sistema sob medida com login, painel, relatórios e automações para organizar processos e aumentar produtividade.
+          </p>
+
+          <ul class="mt-4 text-sm text-gray-700 space-y-2">
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Login + níveis</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Dashboards</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Automação de processos</li>
+          </ul>
+
+          <div class="mt-6 flex gap-3">
+            <a href="contato.html" class="flex-1 inline-flex items-center justify-center px-4 py-2 rounded-full bg-purple-600 text-white text-sm font-semibold hover:bg-purple-700 transition">
+              Solicitar
+            </a>
+            <a href="https://wa.me/5511967962721?text=Ol%C3%A1!%20Quero%20um%20sistema%20de%20gest%C3%A3o%20com%20painel." target="_blank"
+               class="inline-flex items-center justify-center w-11 h-10 rounded-full border border-gray-200 hover:bg-gray-50 transition"
+               aria-label="WhatsApp">
+              <i class="ri-whatsapp-line text-lg text-purple-700"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD -->
+        <article data-card="sistema" class="project-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="flex items-start justify-between gap-4">
+            <div class="inline-flex items-center gap-2">
+              <span class="px-3 py-1 rounded-full bg-purple-50 text-purple-700 text-xs font-semibold">Sistema</span>
+              <span class="px-3 py-1 rounded-full bg-gray-100 text-gray-700 text-xs font-semibold">Automação</span>
+            </div>
+            <span class="text-xs text-gray-500 inline-flex items-center gap-1">
+              <i class="ri-time-line"></i> sob análise
+            </span>
+          </div>
+
+          <h3 class="mt-4 font-extrabold text-gray-900 text-lg">Automação de Rotinas</h3>
+          <p class="mt-2 text-gray-600 text-sm">
+            Automatizamos tarefas repetitivas (planilhas, relatórios, integrações) para você ganhar tempo e reduzir erros.
+          </p>
+
+          <ul class="mt-4 text-sm text-gray-700 space-y-2">
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Redução de retrabalho</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Processos mais rápidos</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Padronização</li>
+          </ul>
+
+          <div class="mt-6 flex gap-3">
+            <a href="contato.html" class="flex-1 inline-flex items-center justify-center px-4 py-2 rounded-full bg-purple-600 text-white text-sm font-semibold hover:bg-purple-700 transition">
+              Solicitar
+            </a>
+            <a href="https://wa.me/5511967962721?text=Ol%C3%A1!%20Quero%20automatizar%20rotinas%20na%20minha%20empresa." target="_blank"
+               class="inline-flex items-center justify-center w-11 h-10 rounded-full border border-gray-200 hover:bg-gray-50 transition"
+               aria-label="WhatsApp">
+              <i class="ri-whatsapp-line text-lg text-purple-700"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD -->
+        <article data-card="gestao" class="project-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="flex items-start justify-between gap-4">
+            <div class="inline-flex items-center gap-2">
+              <span class="px-3 py-1 rounded-full bg-purple-50 text-purple-700 text-xs font-semibold">Gestão</span>
+              <span class="px-3 py-1 rounded-full bg-gray-100 text-gray-700 text-xs font-semibold">Posicionamento</span>
+            </div>
+            <span class="text-xs text-gray-500 inline-flex items-center gap-1">
+              <i class="ri-time-line"></i> 7–14 dias
+            </span>
+          </div>
+
+          <h3 class="mt-4 font-extrabold text-gray-900 text-lg">Padronização de Instagram</h3>
+          <p class="mt-2 text-gray-600 text-sm">
+            Organização visual e estratégica do perfil: bio, destaques, identidade e linha editorial para crescer com clareza.
+          </p>
+
+          <ul class="mt-4 text-sm text-gray-700 space-y-2">
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Bio + destaques</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Identidade visual</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Conteúdo estratégico</li>
+          </ul>
+
+          <div class="mt-6 flex gap-3">
+            <a href="contato.html" class="flex-1 inline-flex items-center justify-center px-4 py-2 rounded-full bg-purple-600 text-white text-sm font-semibold hover:bg-purple-700 transition">
+              Solicitar
+            </a>
+            <a href="https://wa.me/5511967962721?text=Ol%C3%A1!%20Quero%20gest%C3%A3o%20digital%20e%20posicionamento%20do%20Instagram." target="_blank"
+               class="inline-flex items-center justify-center w-11 h-10 rounded-full border border-gray-200 hover:bg-gray-50 transition"
+               aria-label="WhatsApp">
+              <i class="ri-whatsapp-line text-lg text-purple-700"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD -->
+        <article data-card="gestao" class="project-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="flex items-start justify-between gap-4">
+            <div class="inline-flex items-center gap-2">
+              <span class="px-3 py-1 rounded-full bg-purple-50 text-purple-700 text-xs font-semibold">Gestão</span>
+              <span class="px-3 py-1 rounded-full bg-gray-100 text-gray-700 text-xs font-semibold">Conteúdo</span>
+            </div>
+            <span class="text-xs text-gray-500 inline-flex items-center gap-1">
+              <i class="ri-time-line"></i> mensal
+            </span>
+          </div>
+
+          <h3 class="mt-4 font-extrabold text-gray-900 text-lg">Pacote de Conteúdo</h3>
+          <p class="mt-2 text-gray-600 text-sm">
+            Conteúdos com padrão profissional, copy objetiva e foco em conversão para manter consistência e crescer no digital.
+          </p>
+
+          <ul class="mt-4 text-sm text-gray-700 space-y-2">
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Padrão visual</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Copy estratégica</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Constância</li>
+          </ul>
+
+          <div class="mt-6 flex gap-3">
+            <a href="contato.html" class="flex-1 inline-flex items-center justify-center px-4 py-2 rounded-full bg-purple-600 text-white text-sm font-semibold hover:bg-purple-700 transition">
+              Solicitar
+            </a>
+            <a href="https://wa.me/5511967962721?text=Ol%C3%A1!%20Quero%20um%20pacote%20de%20conte%C3%BAdo%20mensal%20para%20minha%20empresa." target="_blank"
+               class="inline-flex items-center justify-center w-11 h-10 rounded-full border border-gray-200 hover:bg-gray-50 transition"
+               aria-label="WhatsApp">
+              <i class="ri-whatsapp-line text-lg text-purple-700"></i>
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- CTA -->
+      <div class="mt-12 rounded-3xl border border-gray-100 bg-white p-8 shadow-sm flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        <div>
+          <h3 class="text-2xl font-extrabold text-gray-900">Quer um projeto com a sua cara?</h3>
+          <p class="mt-1 text-gray-600">
+            Me mande o objetivo + prazo + referência e eu retorno com proposta clara.
+          </p>
+        </div>
+        <div class="flex gap-3">
+          <a href="contato.html"
+             class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-purple-600 text-white font-semibold hover:bg-purple-700 transition">
+            Solicitar Orçamento
+          </a>
+          <a href="https://wa.me/5511967962721?text=Ol%C3%A1!%20Vim%20pela%20p%C3%A1gina%20de%20projetos%20e%20quero%20um%20or%C3%A7amento." target="_blank"
+             class="inline-flex items-center justify-center px-6 py-3 rounded-full border border-gray-200 text-gray-800 font-semibold hover:bg-gray-50 transition">
+            WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <p class="mt-8 text-center text-xs text-gray-500">
+        * Quando você tiver cases reais, a gente troca os cards “modelo” por projetos reais (isso aumenta muito a conversão).
+      </p>
+    </div>
+  </section>
+
+  <!-- WhatsApp flutuante -->
+  <a href="https://wa.me/5511967962721?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20GY%20Sistemas%20e%20quero%20um%20or%C3%A7amento."
+     target="_blank" rel="noopener"
+     class="fixed bottom-5 right-5 z-50 inline-flex items-center gap-2 px-4 py-3 rounded-full bg-green-500 text-white font-semibold shadow-[0_18px_40px_rgba(0,0,0,0.22)] hover:opacity-95 transition">
+    <i class="ri-whatsapp-line text-xl"></i>
+    WhatsApp
+  </a>
+
+  <!-- Footer (padrão do index) -->
+  <footer class="bg-gray-900 text-gray-300">
+    <div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8">
+      <div>
+        <div class="logo-font text-purple-300 text-2xl">GY Sistemas</div>
+        <p class="mt-3 text-sm text-gray-400">
+          Soluções digitais para empresas: sites, sistemas sob medida e estratégia para crescer.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-white">Serviços</h4>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a class="hover:text-white" href="servicos.html">Desenvolvimento de Sistemas</a></li>
+          <li><a class="hover:text-white" href="servicos.html">Criação de Sites</a></li>
+          <li><a class="hover:text-white" href="servicos.html">Gestão Digital</a></li>
+          <li><a class="hover:text-white" href="servicos.html">Consultoria</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-white">Contato</h4>
+        <div class="mt-3 text-sm text-gray-400 space-y-2">
+          <div class="flex items-center gap-2"><i class="ri-phone-line"></i> (11) 96796-2721</div>
+          <div class="flex items-center gap-2"><i class="ri-mail-line"></i> contato@gysistemas.com.br</div>
+          <div class="flex items-center gap-2"><i class="ri-map-pin-line"></i> Atendimento online • Brasil</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10">
+      <div class="max-w-6xl mx-auto px-4 py-5 flex flex-col md:flex-row gap-2 items-center justify-between text-xs text-gray-400">
+        <span>© <span id="year"></span> GY Sistemas. Todos os direitos reservados.</span>
+        <span>Feito com foco em performance</span>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+
+  <!-- JS: menu mobile + filtro -->
+  <script>
+    // Menu mobile
+    (function () {
+      const btn = document.querySelector("[data-menu-btn]");
+      const panel = document.querySelector("[data-menu-panel]");
+      if (btn && panel) {
+        btn.addEventListener("click", () => panel.classList.toggle("hidden"));
+      }
+    })();
+
+    // Filtro de projetos
+    (function () {
+      const btns = document.querySelectorAll(".filter-btn");
+      const cards = document.querySelectorAll(".project-card");
+
+      function setActive(btn) {
+        btns.forEach(b => {
+          b.classList.remove("bg-purple-600", "text-white");
+          b.classList.add("bg-white", "border", "border-gray-200", "text-gray-700");
+        });
+        btn.classList.remove("bg-white", "border", "border-gray-200", "text-gray-700");
+        btn.classList.add("bg-purple-600", "text-white");
+      }
+
+      function applyFilter(value) {
+        cards.forEach(card => {
+          const type = card.getAttribute("data-card");
+          if (value === "all" || type === value) {
+            card.classList.remove("hidden");
+          } else {
+            card.classList.add("hidden");
+          }
+        });
+      }
+
+      btns.forEach(btn => {
+        btn.addEventListener("click", () => {
+          const value = btn.getAttribute("data-filter");
+          setActive(btn);
+          applyFilter(value);
+        });
+      });
+    })();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serviços | GY Sistemas</title>
+  <meta name="description" content="Conheça os serviços da GY Sistemas: desenvolvimento de sistemas, criação de sites, gestão digital e consultoria estratégica." />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Serviços | GY Sistemas" />
+  <meta property="og:description" content="Soluções digitais sob medida: sites, sistemas e gestão para empresas crescerem no digital." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/og.jpg" />
+
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom -->
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <!-- HEADER (padrão premium do index) -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <span class="inline-flex items-center justify-center h-11 w-11 rounded-xl bg-gradient-to-br from-[#6d28d9] to-[#9333ea] shadow-[0_10px_25px_rgba(124,58,237,0.25)]">
+          <img src="assets/img/logo-icon.png" alt="GY Sistemas" class="h-6 w-auto" />
+        </span>
+        <span class="font-semibold tracking-wide text-gray-900">GY Sistemas</span>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a class="text-gray-700 hover:text-purple-600 transition" href="index.html">Início</a>
+        <a class="text-purple-700 font-semibold" href="servicos.html">Serviços</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="projetos.html">Projetos</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="sobre.html">Sobre</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="contato.html">Contato</a>
+
+        <a class="inline-flex items-center justify-center px-5 py-2 rounded-full bg-white text-purple-700 font-semibold hover:bg-white/90 transition"
+           href="contato.html">
+          Solicitar Orçamento
+        </a>
+      </nav>
+
+      <button data-menu-btn class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg border border-gray-200">
+        <i class="ri-menu-line text-xl"></i>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div data-menu-panel class="hidden md:hidden border-t border-gray-100 bg-white">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-3 text-sm">
+        <a class="text-gray-700 hover:text-purple-600" href="index.html">Início</a>
+        <a class="text-purple-700 font-semibold" href="servicos.html">Serviços</a>
+        <a class="text-gray-700 hover:text-purple-600" href="projetos.html">Projetos</a>
+        <a class="text-gray-700 hover:text-purple-600" href="sobre.html">Sobre</a>
+        <a class="text-gray-700 hover:text-purple-600" href="contato.html">Contato</a>
+        <a class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-purple-600 text-white hover:bg-purple-700 transition"
+           href="contato.html">
+          Solicitar Orçamento
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO (padrão roxo premium) -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-[#4c1d95] via-[#7c3aed] to-[#9333ea]"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,255,255,0.18),_transparent_55%)]"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,_rgba(0,0,0,0.18),_transparent_60%)]"></div>
+
+    <div class="relative max-w-6xl mx-auto px-4 py-14 md:py-20 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
+          Serviços pensados para<br/>
+          <span class="text-purple-200">crescer, organizar e vender</span>.
+        </h1>
+        <p class="mt-5 text-purple-100 leading-relaxed max-w-xl">
+          A GY Sistemas entrega soluções digitais sob medida com foco em resultado: sites que convertem,
+          sistemas que organizam e estratégia para presença digital forte.
+        </p>
+
+        <div class="mt-8 flex flex-col sm:flex-row gap-3">
+          <a href="contato.html"
+             class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-white text-purple-700 font-semibold hover:bg-purple-50 transition">
+            Solicitar Orçamento
+          </a>
+          <a href="projetos.html"
+             class="inline-flex items-center justify-center px-6 py-3 rounded-full border border-white/30 text-white hover:bg-white/10 transition">
+            Ver Projetos
+          </a>
+        </div>
+
+        <div class="mt-8 flex flex-wrap items-center gap-4 text-purple-100 text-sm">
+          <div class="flex items-center gap-2">
+            <i class="ri-shield-check-line"></i>
+            <span>Entrega profissional</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="ri-flashlight-line"></i>
+            <span>Atendimento rápido</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="ri-line-chart-line"></i>
+            <span>Foco em conversão</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="rounded-2xl overflow-hidden border border-white/20 shadow-[0_30px_80px_rgba(0,0,0,0.35)] backdrop-blur-sm bg-white/5">
+          <img class="w-full h-[260px] md:h-[320px] object-cover"
+               src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=60"
+               alt="Serviços digitais e estratégia" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOCO: cards de serviços -->
+  <section class="bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+      <div class="text-center">
+        <h2 class="text-3xl font-extrabold text-gray-900">O que entregamos</h2>
+        <p class="mt-2 text-gray-600">Pacotes claros, entregas organizadas e foco em resultado.</p>
+      </div>
+
+      <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- 1 -->
+        <article class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+            <i class="ri-code-s-slash-line text-purple-600 text-xl"></i>
+          </div>
+          <h3 class="mt-4 font-extrabold text-gray-900">Sistemas sob medida</h3>
+          <p class="mt-2 text-gray-600 text-sm">
+            Automatize rotinas, reduza erros e organize processos com um sistema feito para sua realidade.
+          </p>
+          <ul class="mt-4 text-sm text-gray-700 space-y-2">
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Painel/gestão</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Financeiro</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Estoque</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Relatórios</li>
+          </ul>
+        </article>
+
+        <!-- 2 -->
+        <article class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+            <i class="ri-global-line text-purple-600 text-xl"></i>
+          </div>
+          <h3 class="mt-4 font-extrabold text-gray-900">Sites profissionais</h3>
+          <p class="mt-2 text-gray-600 text-sm">
+            Site rápido, bonito e estratégico — pensado para autoridade e conversão com WhatsApp e CTA.
+          </p>
+          <ul class="mt-4 text-sm text-gray-700 space-y-2">
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Responsivo</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> SEO básico</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Alta performance</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Integrações</li>
+          </ul>
+        </article>
+
+        <!-- 3 -->
+        <article class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+            <i class="ri-instagram-line text-purple-600 text-xl"></i>
+          </div>
+          <h3 class="mt-4 font-extrabold text-gray-900">Gestão digital</h3>
+          <p class="mt-2 text-gray-600 text-sm">
+            Estruturamos seu posicionamento: bio, destaques, padrão visual e conteúdo estratégico.
+          </p>
+          <ul class="mt-4 text-sm text-gray-700 space-y-2">
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Bio e destaques</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Padrão visual</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Conteúdo</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Diagnóstico</li>
+          </ul>
+        </article>
+
+        <!-- 4 -->
+        <article class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+            <i class="ri-lightbulb-flash-line text-purple-600 text-xl"></i>
+          </div>
+          <h3 class="mt-4 font-extrabold text-gray-900">Consultoria</h3>
+          <p class="mt-2 text-gray-600 text-sm">
+            Direcionamento claro com diagnóstico + plano de ação para você crescer com consistência.
+          </p>
+          <ul class="mt-4 text-sm text-gray-700 space-y-2">
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Diagnóstico</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Plano prático</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Ajustes</li>
+            <li class="flex gap-2"><i class="ri-check-line text-purple-600"></i> Crescimento</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="mt-10 text-center">
+        <p class="text-gray-600">
+          Atendemos empresas de diversos segmentos com soluções personalizadas e foco em resultado.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DETALHES (premium) -->
+  <section>
+    <div class="max-w-6xl mx-auto px-4 py-16 grid lg:grid-cols-2 gap-10 items-start">
+      <div class="bg-white rounded-3xl border border-gray-100 shadow-sm p-8">
+        <h3 class="text-2xl font-extrabold text-gray-900">Como funciona</h3>
+        <p class="mt-2 text-gray-600">
+          Processo simples, transparente e organizado — para você saber exatamente o que está acontecendo.
+        </p>
+
+        <ol class="mt-6 space-y-4 text-gray-700">
+          <li class="flex gap-3">
+            <span class="h-8 w-8 rounded-xl bg-purple-50 text-purple-700 font-bold inline-flex items-center justify-center">1</span>
+            <div>
+              <div class="font-semibold text-gray-900">Briefing rápido</div>
+              <div class="text-sm text-gray-600">Entendemos objetivo, prazo e prioridade.</div>
+            </div>
+          </li>
+          <li class="flex gap-3">
+            <span class="h-8 w-8 rounded-xl bg-purple-50 text-purple-700 font-bold inline-flex items-center justify-center">2</span>
+            <div>
+              <div class="font-semibold text-gray-900">Proposta clara</div>
+              <div class="text-sm text-gray-600">Escopo, valores e etapas organizadas.</div>
+            </div>
+          </li>
+          <li class="flex gap-3">
+            <span class="h-8 w-8 rounded-xl bg-purple-50 text-purple-700 font-bold inline-flex items-center justify-center">3</span>
+            <div>
+              <div class="font-semibold text-gray-900">Execução + entrega</div>
+              <div class="text-sm text-gray-600">Entrega profissional e suporte.</div>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <div class="bg-gray-50 rounded-3xl border border-gray-100 p-8">
+        <h3 class="text-2xl font-extrabold text-gray-900">Prazo médio por tipo</h3>
+        <div class="mt-6 grid gap-4">
+          <div class="bg-white rounded-2xl border border-gray-100 p-5 flex items-start justify-between gap-4">
+            <div>
+              <div class="font-semibold text-gray-900">Landing Page</div>
+              <div class="text-sm text-gray-600">Alta conversão + WhatsApp</div>
+            </div>
+            <span class="text-sm font-semibold text-purple-700">3–5 dias</span>
+          </div>
+          <div class="bg-white rounded-2xl border border-gray-100 p-5 flex items-start justify-between gap-4">
+            <div>
+              <div class="font-semibold text-gray-900">Site Institucional</div>
+              <div class="text-sm text-gray-600">Autoridade + seções estratégicas</div>
+            </div>
+            <span class="text-sm font-semibold text-purple-700">7–10 dias</span>
+          </div>
+          <div class="bg-white rounded-2xl border border-gray-100 p-5 flex items-start justify-between gap-4">
+            <div>
+              <div class="font-semibold text-gray-900">Sistema sob medida</div>
+              <div class="text-sm text-gray-600">Painel + automação + relatórios</div>
+            </div>
+            <span class="text-sm font-semibold text-purple-700">15–30 dias</span>
+          </div>
+        </div>
+
+        <p class="mt-5 text-xs text-gray-500">
+          * Os prazos variam conforme escopo e volume de funcionalidades.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="bg-gradient-to-br from-purple-900 via-purple-800 to-purple-600 text-white">
+    <div class="max-w-6xl mx-auto px-4 py-14 text-center">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Pronto para evoluir sua empresa com tecnologia?</h2>
+      <p class="mt-3 text-purple-100 max-w-2xl mx-auto">
+        Me diga o que você precisa e eu retorno com proposta clara: site, sistema ou gestão digital.
+      </p>
+
+      <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="contato.html"
+           class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-white text-purple-700 font-semibold hover:bg-purple-50 transition">
+          Solicitar Orçamento
+        </a>
+        <a href="https://wa.me/5511967962721?text=Ol%C3%A1!%20Vim%20pela%20p%C3%A1gina%20de%20servi%C3%A7os%20da%20GY%20Sistemas%20e%20quero%20um%20or%C3%A7amento."
+           target="_blank"
+           class="inline-flex items-center justify-center px-6 py-3 rounded-full border border-white/40 hover:bg-white/10 transition">
+          WhatsApp: (11) 96796-2721
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER (padrão do index) -->
+  <footer class="bg-gray-900 text-gray-300">
+    <div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8">
+      <div>
+        <div class="logo-font text-purple-300 text-2xl">GY Sistemas</div>
+        <p class="mt-3 text-sm text-gray-400">
+          Soluções digitais para empresas: sites, sistemas sob medida e estratégia para crescer.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-white">Serviços</h4>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a class="hover:text-white" href="servicos.html">Desenvolvimento de Sistemas</a></li>
+          <li><a class="hover:text-white" href="servicos.html">Criação de Sites</a></li>
+          <li><a class="hover:text-white" href="servicos.html">Gestão Digital</a></li>
+          <li><a class="hover:text-white" href="servicos.html">Consultoria</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-white">Contato</h4>
+        <div class="mt-3 text-sm text-gray-400 space-y-2">
+          <div class="flex items-center gap-2"><i class="ri-phone-line"></i> (11) 96796-2721</div>
+          <div class="flex items-center gap-2"><i class="ri-mail-line"></i> contato@gysistemas.com.br</div>
+          <div class="flex items-center gap-2"><i class="ri-map-pin-line"></i> Atendimento online • Brasil</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10">
+      <div class="max-w-6xl mx-auto px-4 py-5 flex flex-col md:flex-row gap-2 items-center justify-between text-xs text-gray-400">
+        <span>© <span id="year"></span> GY Sistemas. Todos os direitos reservados.</span>
+        <span>Feito com foco em performance</span>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+
+  <script>
+    // Mobile menu
+    (function () {
+      const btn = document.querySelector("[data-menu-btn]");
+      const panel = document.querySelector("[data-menu-panel]");
+      if (btn && panel) {
+        btn.addEventListener("click", () => panel.classList.toggle("hidden"));
+      }
+    })();
+  </script>
+
+</body>
+</html>

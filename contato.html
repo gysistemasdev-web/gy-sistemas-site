@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato | GY Sistemas</title>
+  <meta name="description" content="Fale com a GY Sistemas e solicite um orçamento. Sites, sistemas e presença digital com foco em resultado." />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <!-- HEADER -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+
+      <!-- Brand -->
+      <a href="index.html" class="flex items-center gap-3">
+        <!-- Badge -->
+        <span class="inline-flex items-center justify-center h-11 w-11 rounded-xl bg-gradient-to-br from-[#6d28d9] to-[#9333ea] shadow-[0_10px_25px_rgba(124,58,237,0.18)]">
+          <img src="assets/img/logo-icon.png" alt="GY Sistemas" class="h-6 w-auto" />
+        </span>
+        <span class="font-semibold text-gray-900 text-lg tracking-wide">GY Sistemas</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a class="text-gray-700 hover:text-purple-600 transition" href="index.html">Início</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="servicos.html">Serviços</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="projetos.html">Projetos</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="sobre.html">Sobre</a>
+        <a class="text-purple-700 font-semibold" href="contato.html">Contato</a>
+
+        <a class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-purple-600 text-white hover:bg-purple-700 transition"
+          href="#form">
+          Solicitar Orçamento
+        </a>
+      </nav>
+
+      <!-- Mobile button -->
+      <button data-menu-btn class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg border border-gray-200">
+        <i class="ri-menu-line text-xl"></i>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div data-menu-panel class="hidden md:hidden border-t border-gray-100 bg-white">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-3 text-sm">
+        <a class="text-gray-700 hover:text-purple-600 transition" href="index.html">Início</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="servicos.html">Serviços</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="projetos.html">Projetos</a>
+        <a class="text-gray-700 hover:text-purple-600 transition" href="sobre.html">Sobre</a>
+        <a class="text-purple-700 font-semibold" href="contato.html">Contato</a>
+
+        <a class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-purple-600 text-white hover:bg-purple-700 transition"
+           href="#form">
+          Solicitar Orçamento
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden">
+    <!-- Background layers -->
+    <div class="absolute inset-0 bg-gradient-to-br from-[#4c1d95] via-[#7c3aed] to-[#9333ea]"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,255,255,0.18),_transparent_55%)]"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,_rgba(0,0,0,0.18),_transparent_60%)]"></div>
+
+    <div class="relative max-w-6xl mx-auto px-4 py-14 md:py-20">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <div class="inline-flex items-center gap-3 mb-6">
+            <span class="inline-flex items-center justify-center h-12 w-12 rounded-2xl bg-white/15 border border-white/20 shadow-sm">
+              <img src="assets/img/logo-icon.png" alt="Logo GY Sistemas" class="h-7 w-auto" />
+            </span>
+            <span class="text-white/90 font-semibold tracking-wide">GY Sistemas</span>
+          </div>
+
+          <h1 class="text-4xl md:text-5xl font-extrabold text-white leading-[1.05]">
+            Vamos tirar seu projeto do papel.
+          </h1>
+
+          <p class="mt-5 text-white/85 text-lg max-w-xl">
+            Atendimento direto, sem enrolação. Conte pra gente o que você precisa e retornamos com uma proposta objetiva:
+            <span class="font-semibold text-white">site</span>, <span class="font-semibold text-white">sistema</span> ou <span class="font-semibold text-white">posicionamento digital</span>.
+          </p>
+
+          <div class="mt-8 flex flex-col sm:flex-row gap-3">
+            <a id="cta-whats-hero"
+               class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-white text-purple-700 font-semibold hover:bg-white/90 transition shadow-[0_14px_28px_rgba(0,0,0,0.18)]"
+               href="https://wa.me/5511967962721?text=Ol%C3%A1%20GY%20Sistemas!%20Gostaria%20de%20um%20or%C3%A7amento.%20Meu%20nome%20%C3%A9%20____%20e%20preciso%20de%20____."
+               target="_blank" rel="noopener">
+              <i class="ri-whatsapp-line text-xl mr-2"></i>
+              Falar no WhatsApp
+            </a>
+
+            <a class="inline-flex items-center justify-center px-6 py-3 rounded-full border border-white/30 text-white hover:bg-white/10 transition"
+               href="#form">
+              <i class="ri-mail-send-line text-xl mr-2"></i>
+              Enviar mensagem
+            </a>
+          </div>
+
+          <div class="mt-8 flex flex-wrap gap-4 text-white/80 text-sm">
+            <div class="inline-flex items-center gap-2">
+              <span class="inline-flex items-center justify-center h-8 w-8 rounded-lg bg-white/10 border border-white/15">
+                <i class="ri-time-line"></i>
+              </span>
+              Resposta rápida
+            </div>
+            <div class="inline-flex items-center gap-2">
+              <span class="inline-flex items-center justify-center h-8 w-8 rounded-lg bg-white/10 border border-white/15">
+                <i class="ri-shield-check-line"></i>
+              </span>
+              Proposta clara
+            </div>
+            <div class="inline-flex items-center gap-2">
+              <span class="inline-flex items-center justify-center h-8 w-8 rounded-lg bg-white/10 border border-white/15">
+                <i class="ri-rocket-2-line"></i>
+              </span>
+              Foco em resultado
+            </div>
+          </div>
+        </div>
+
+        <!-- Right card -->
+        <div class="bg-white/10 border border-white/15 rounded-3xl p-6 md:p-8 shadow-[0_22px_55px_rgba(0,0,0,0.22)] backdrop-blur">
+          <div class="flex items-center justify-between">
+            <h2 class="text-white font-semibold text-lg">Canais de contato</h2>
+            <span class="inline-flex items-center gap-2 text-white/80 text-sm">
+              <img src="assets/img/logo-icon.png" alt="GY" class="h-5 w-auto opacity-90" />
+              GY Sistemas
+            </span>
+          </div>
+
+          <div class="mt-6 space-y-4">
+            <a class="flex items-center gap-3 p-4 rounded-2xl bg-white/10 hover:bg-white/15 transition border border-white/10"
+               href="https://wa.me/5511967962721?text=Ol%C3%A1%20GY%20Sistemas!%20Quero%20um%20or%C3%A7amento."
+               target="_blank" rel="noopener">
+              <span class="h-11 w-11 rounded-xl bg-white/15 border border-white/15 inline-flex items-center justify-center">
+                <i class="ri-whatsapp-line text-white text-xl"></i>
+              </span>
+              <div>
+                <div class="text-white font-semibold">WhatsApp</div>
+                <div class="text-white/75 text-sm">(11) 96796-2721</div>
+              </div>
+            </a>
+
+            <a class="flex items-center gap-3 p-4 rounded-2xl bg-white/10 hover:bg-white/15 transition border border-white/10"
+               href="https://instagram.com/gy_sistemas"
+               target="_blank" rel="noopener">
+              <span class="h-11 w-11 rounded-xl bg-white/15 border border-white/15 inline-flex items-center justify-center">
+                <i class="ri-instagram-line text-white text-xl"></i>
+              </span>
+              <div>
+                <div class="text-white font-semibold">Instagram</div>
+                <div class="text-white/75 text-sm">@gy_sistemas</div>
+              </div>
+            </a>
+
+            <div class="flex items-center gap-3 p-4 rounded-2xl bg-white/10 border border-white/10">
+              <span class="h-11 w-11 rounded-xl bg-white/15 border border-white/15 inline-flex items-center justify-center">
+                <i class="ri-customer-service-2-line text-white text-xl"></i>
+              </span>
+              <div>
+                <div class="text-white font-semibold">Atendimento</div>
+                <div class="text-white/75 text-sm">Seg a Sex • 09:00 às 18:00</div>
+              </div>
+            </div>
+          </div>
+
+          <p class="mt-6 text-white/75 text-sm">
+            Preferiu orçamento rápido? Clique no WhatsApp e envie seu objetivo + prazo + orçamento estimado.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN -->
+  <main class="max-w-6xl mx-auto px-4 py-16">
+    <div class="grid lg:grid-cols-2 gap-10 items-start">
+      <!-- Left: Info cards -->
+      <section class="space-y-6">
+        <div class="bg-white rounded-3xl border border-gray-100 shadow-sm p-7">
+          <div class="flex items-center gap-3">
+            <span class="inline-flex items-center justify-center h-10 w-10 rounded-xl bg-purple-50 border border-purple-100">
+              <img src="assets/img/logo-icon.png" alt="GY" class="h-6 w-auto" />
+            </span>
+            <h3 class="text-xl font-bold">Como funciona o orçamento</h3>
+          </div>
+
+          <ol class="mt-4 space-y-3 text-gray-600">
+            <li class="flex gap-3">
+              <span class="h-7 w-7 rounded-lg bg-purple-50 text-purple-700 font-semibold inline-flex items-center justify-center">1</span>
+              Você descreve o que precisa (site, sistema, gestão digital).
+            </li>
+            <li class="flex gap-3">
+              <span class="h-7 w-7 rounded-lg bg-purple-50 text-purple-700 font-semibold inline-flex items-center justify-center">2</span>
+              A gente valida o escopo e envia uma proposta clara.
+            </li>
+            <li class="flex gap-3">
+              <span class="h-7 w-7 rounded-lg bg-purple-50 text-purple-700 font-semibold inline-flex items-center justify-center">3</span>
+              Início rápido + entrega organizada + suporte.
+            </li>
+          </ol>
+        </div>
+
+        <div class="bg-white rounded-3xl border border-gray-100 shadow-sm p-7">
+          <h3 class="text-xl font-bold">O que enviar pra agilizar</h3>
+          <div class="mt-4 grid sm:grid-cols-2 gap-3 text-sm">
+            <div class="p-4 rounded-2xl bg-gray-50 border border-gray-100">
+              <div class="font-semibold text-gray-900">Tipo de projeto</div>
+              <div class="text-gray-600 mt-1">Site, sistema, catálogo, etc.</div>
+            </div>
+            <div class="p-4 rounded-2xl bg-gray-50 border border-gray-100">
+              <div class="font-semibold text-gray-900">Prazo</div>
+              <div class="text-gray-600 mt-1">Urgente, 7 dias, 30 dias…</div>
+            </div>
+            <div class="p-4 rounded-2xl bg-gray-50 border border-gray-100">
+              <div class="font-semibold text-gray-900">Objetivo</div>
+              <div class="text-gray-600 mt-1">Vender, captar leads, organizar.</div>
+            </div>
+            <div class="p-4 rounded-2xl bg-gray-50 border border-gray-100">
+              <div class="font-semibold text-gray-900">Referências</div>
+              <div class="text-gray-600 mt-1">Links de sites/perfis que gosta.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right: Form -->
+      <section id="form" class="bg-white rounded-3xl border border-gray-100 shadow-sm p-7">
+        <div class="flex items-center justify-between gap-4">
+          <div>
+            <h2 class="text-2xl font-extrabold">Enviar mensagem</h2>
+            <p class="text-gray-600 mt-1">Preencha abaixo ou fale direto no WhatsApp.</p>
+          </div>
+          <span class="inline-flex items-center gap-2 text-sm text-purple-700 font-semibold">
+            <img src="assets/img/logo-icon.png" alt="GY" class="h-6 w-auto" />
+            GY Sistemas
+          </span>
+        </div>
+
+        <form id="contactForm" class="mt-6 space-y-4">
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="text-sm font-semibold text-gray-700">Nome *</label>
+              <input id="nome" required
+                class="mt-1 w-full rounded-xl border border-gray-200 px-4 py-3 outline-none focus:ring-4 focus:ring-purple-100 focus:border-purple-300"
+                placeholder="Seu nome" />
+            </div>
+            <div>
+              <label class="text-sm font-semibold text-gray-700">Telefone/WhatsApp *</label>
+              <input id="telefone" required
+                class="mt-1 w-full rounded-xl border border-gray-200 px-4 py-3 outline-none focus:ring-4 focus:ring-purple-100 focus:border-purple-300"
+                placeholder="(11) 99999-9999" />
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="text-sm font-semibold text-gray-700">E-mail</label>
+              <input id="email" type="email"
+                class="mt-1 w-full rounded-xl border border-gray-200 px-4 py-3 outline-none focus:ring-4 focus:ring-purple-100 focus:border-purple-300"
+                placeholder="seuemail@dominio.com" />
+            </div>
+
+            <div>
+              <label class="text-sm font-semibold text-gray-700">Interesse *</label>
+              <select id="interesse" required
+                class="mt-1 w-full rounded-xl border border-gray-200 px-4 py-3 outline-none focus:ring-4 focus:ring-purple-100 focus:border-purple-300 bg-white">
+                <option value="" selected disabled>Selecione…</option>
+                <option>Criação de Site</option>
+                <option>Desenvolvimento de Sistema</option>
+                <option>Gestão Digital</option>
+                <option>Consultoria</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="text-sm font-semibold text-gray-700">Mensagem *</label>
+            <textarea id="mensagem" required rows="5"
+              class="mt-1 w-full rounded-xl border border-gray-200 px-4 py-3 outline-none focus:ring-4 focus:ring-purple-100 focus:border-purple-300"
+              placeholder="Conte rapidamente o que você precisa, prazo e objetivo."></textarea>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-3 pt-2">
+            <button type="submit"
+              class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-purple-600 text-white font-semibold hover:bg-purple-700 transition w-full sm:w-auto">
+              <i class="ri-send-plane-2-line mr-2"></i>
+              Enviar via WhatsApp
+            </button>
+
+            <a class="inline-flex items-center justify-center px-6 py-3 rounded-full border border-purple-200 text-purple-700 font-semibold hover:bg-purple-50 transition w-full sm:w-auto"
+              href="https://wa.me/5511967962721?text=Ol%C3%A1%20GY%20Sistemas!%20Gostaria%20de%20um%20or%C3%A7amento.%20Meu%20nome%20%C3%A9%20____%20e%20preciso%20de%20____."
+              target="_blank" rel="noopener">
+              <i class="ri-whatsapp-line mr-2"></i>
+              Abrir WhatsApp
+            </a>
+          </div>
+
+          <p id="formStatus" class="hidden mt-3 text-sm"></p>
+        </form>
+
+        <div class="mt-6 rounded-2xl bg-gray-50 border border-gray-100 p-4 text-sm text-gray-600">
+          <span class="font-semibold text-gray-900">Dica:</span> se for site, envie também o nome do domínio (se já tiver) e referências visuais.
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-300">
+    <div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-10">
+      <div>
+        <div class="flex items-center gap-3">
+          <span class="inline-flex items-center justify-center h-11 w-11 rounded-xl bg-white/10 border border-white/10">
+            <img src="assets/img/logo-icon.png" alt="GY Sistemas" class="h-6 w-auto" />
+          </span>
+          <div>
+            <div class="font-semibold text-white">GY Sistemas</div>
+            <div class="text-sm text-gray-400">Codando o futuro</div>
+          </div>
+        </div>
+        <p class="mt-4 text-sm text-gray-400">
+          Tecnologia e estratégia para empresas que querem presença digital forte e soluções sob medida.
+        </p>
+      </div>
+
+      <div>
+        <div class="font-semibold text-white">Contato</div>
+        <ul class="mt-3 space-y-2 text-sm text-gray-400">
+          <li class="flex items-center gap-2"><i class="ri-whatsapp-line"></i> (11) 96796-2721</li>
+          <li class="flex items-center gap-2"><i class="ri-instagram-line"></i> @gy_sistemas</li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="font-semibold text-white">Atalhos</div>
+        <ul class="mt-3 space-y-2 text-sm text-gray-400">
+          <li><a class="hover:text-white transition" href="servicos.html">Serviços</a></li>
+          <li><a class="hover:text-white transition" href="projetos.html">Projetos</a></li>
+          <li><a class="hover:text-white transition" href="sobre.html">Sobre</a></li>
+          <li><a class="hover:text-white transition" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10">
+      <div class="max-w-6xl mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-gray-400">
+        <span>© 2026 GY Sistemas. Todos os direitos reservados.</span>
+        <span class="inline-flex items-center gap-2">
+          <img src="assets/img/logo-icon.png" alt="GY" class="h-4 w-auto opacity-80" />
+          Feito com foco em resultado.
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS (menu mobile + envio WhatsApp) -->
+  <script>
+    // Mobile menu
+    const btn = document.querySelector('[data-menu-btn]');
+    const panel = document.querySelector('[data-menu-panel]');
+    if (btn && panel) {
+      btn.addEventListener('click', () => panel.classList.toggle('hidden'));
+    }
+
+    // Form -> WhatsApp
+    const form = document.getElementById('contactForm');
+    const statusEl = document.getElementById('formStatus');
+
+    function setStatus(type, msg) {
+      statusEl.classList.remove('hidden', 'text-green-700', 'text-red-700', 'bg-green-50', 'bg-red-50', 'border-green-200', 'border-red-200');
+      statusEl.classList.add('border', 'rounded-xl', 'px-4', 'py-3');
+      if (type === 'ok') {
+        statusEl.classList.add('text-green-700', 'bg-green-50', 'border-green-200');
+      } else {
+        statusEl.classList.add('text-red-700', 'bg-red-50', 'border-red-200');
+      }
+      statusEl.textContent = msg;
+    }
+
+    if (form) {
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const nome = document.getElementById('nome').value.trim();
+        const tel = document.getElementById('telefone').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const interesse = document.getElementById('interesse').value.trim();
+        const mensagem = document.getElementById('mensagem').value.trim();
+
+        if (!nome || !tel || !interesse || !mensagem) {
+          setStatus('err', 'Preencha os campos obrigatórios: Nome, Telefone, Interesse e Mensagem.');
+          return;
+        }
+
+        const texto =
+          `Olá GY Sistemas!%0A%0A` +
+          `*Nome:* ${encodeURIComponent(nome)}%0A` +
+          `*Telefone:* ${encodeURIComponent(tel)}%0A` +
+          (email ? `*Email:* ${encodeURIComponent(email)}%0A` : '') +
+          `*Interesse:* ${encodeURIComponent(interesse)}%0A%0A` +
+          `*Mensagem:* ${encodeURIComponent(mensagem)}%0A`;
+
+        const url = `https://wa.me/5511967962721?text=${texto}`;
+        setStatus('ok', 'Perfeito! Abrindo o WhatsApp para você enviar a mensagem…');
+        window.open(url, '_blank');
+      });
+    }
+  </script>
+</body>
+</html>

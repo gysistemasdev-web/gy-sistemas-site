@@ -1,0 +1,10 @@
+/* Fonte do logo (Pacifico) */
+.logo-font {
+  font-family: "Pacifico", cursive;
+}
+
+/* Ajuste leve para suavizar renderização */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
