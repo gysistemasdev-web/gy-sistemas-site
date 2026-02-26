@@ -20,5 +20,18 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
-          server-dir: public_html/
+
+          protocol: ftps
+          local-dir: ./
+          server-dir: /
+
           dangerous-clean-slate: false
+
+          exclude: |
+            **/.git*
+            **/.github/**
+            **/node_modules/**
+            **/.vscode/**
+            **/.DS_Store
+            README*
+            LICENSE*
