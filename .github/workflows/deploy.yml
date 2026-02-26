@@ -21,8 +21,10 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
 
-          protocol: ftps
-          local-dir: ./
+          protocol: ftp
+          passive: true
+
+          # ✅ Evita duplicar public_html
           server-dir: /
 
           dangerous-clean-slate: false
