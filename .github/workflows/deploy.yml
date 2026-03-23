@@ -20,15 +20,10 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
-
           protocol: ftp
           passive: true
-
-          # ✅ Evita duplicar public_html
-          server-dir: /
-
+          server-dir: /public_html/
           dangerous-clean-slate: false
-
           exclude: |
             **/.git*
             **/.github/**
